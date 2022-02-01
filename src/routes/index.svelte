@@ -39,6 +39,7 @@
 	<!-- Destructuring projects prop from load function -->
 	<!-- Iterate through props and render each project with the Project Card component -->
 	{#each projects as { name, slug, description, image }}
+		<!-- Because the expected props on the component are the same as what's being passed, then there is no need to label the props. -->
 		<ProjectCard {name} {slug} {description} url={image[0].url} />
 	{/each}
 </div>
