@@ -11,6 +11,7 @@ specifiers:
   eslint-plugin-svelte3: ^3.2.1
   graphql: ^16.3.0
   graphql-request: ^4.0.0
+  marked: ^4.0.12
   postcss: ^8.4.5
   postcss-load-config: ^3.1.1
   prettier: ^2.4.1
@@ -21,7 +22,7 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.17
-  '@sveltejs/kit': 1.0.0-next.253_svelte@3.46.3
+  '@sveltejs/kit': 1.0.0-next.257_svelte@3.46.3
   '@tailwindcss/typography': 0.5.1_tailwindcss@3.0.18
   autoprefixer: 10.4.2_postcss@8.4.5
   daisyui: 1.25.4
@@ -30,6 +31,7 @@ devDependencies:
   eslint-plugin-svelte3: 3.4.0_eslint@7.32.0+svelte@3.46.3
   graphql: 16.3.0
   graphql-request: 4.0.0_graphql@16.3.0
+  marked: 4.0.12
   postcss: 8.4.5
   postcss-load-config: 3.1.1
   prettier: 2.5.1
@@ -153,8 +155,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.253_svelte@3.46.3:
-    resolution: {integrity: sha512-rOO4aObxtFXkTv8vfuPx1UEu1kx2zPB6HSWcKbU0iYP8i2RHXSO2sLXlKbrrZUXsPhmi9bTSgEDUaqn7ShgwGw==}
+  /@sveltejs/kit/1.0.0-next.257_svelte@3.46.3:
+    resolution: {integrity: sha512-dt7BwynNeGl1S9ODdVGwNmemM7QZMycPq10BYhiwdCNrHf/Zn2LNQsTdaxKEB2jdj9gDCh/ZRD0HH5ovc2jUcg==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1208,6 +1210,12 @@ packages:
     resolution: {integrity: sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
+
+  /marked/4.0.12:
+    resolution: {integrity: sha512-hgibXWrEDNBWgGiK18j/4lkS6ihTe9sxtV4Q1OQppb/0zzyPSzoFANBa5MfsG/zgsWklmNnhm0XACZOH/0HBiQ==}
+    engines: {node: '>= 12'}
+    hasBin: true
     dev: true
 
   /merge2/1.4.1:
