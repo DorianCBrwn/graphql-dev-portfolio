@@ -1,7 +1,7 @@
 <script>
 	import FacebookIcon from './facebook-icon.svelte';
 	import TwitterIcon from './twitter-icon.svelte';
-	import YouTubeIcon from './you-tube-icon.svelte';
+	import GithubIcon from './github-icon.svelte';
 </script>
 
 <footer class="p-10 footer bg-primary text-primary-content footer-center">
@@ -12,14 +12,11 @@
 	</div>
 	<div>
 		<div class="grid grid-flow-col gap-4">
-			<a href="https://twitter.com">
+			<a href="https://twitter.com/DorianCBrwn">
 				<TwitterIcon />
 			</a>
-			<a href="https://youtube.com">
-				<YouTubeIcon />
-			</a>
-			<a href="https://facebook.com">
-				<FacebookIcon />
+			<a href="https://github.com/DorianCBrwn">
+				<GithubIcon />
 			</a>
 		</div>
 	</div>
