@@ -11,7 +11,7 @@
 	});
 </script>
 
-<div class="text-center"><p>Site is currently under construction</p></div>
+<div class="text-center py-1"><p>Site is currently under construction</p></div>
 <Navbar />
 <main class="container max-w-3xl mx-auto px-4 mb-20">
 	<slot />
