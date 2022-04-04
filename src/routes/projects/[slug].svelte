@@ -1,5 +1,5 @@
 <script context="module">
-	import { projectQuery } from '$/lib/graphql-queries.js';
+	import { projectQuery } from '$lib/graphql-queries.js';
 	import { client } from '$lib/graphql-client';
 	import { marked } from 'marked';
 

@@ -1,10 +1,16 @@
 <script>
 	import ThemeSelect from '$lib/components/theme-select.svelte';
+	import Logo from '$lib/components/d-logo.svelte';
+	import { page } from '$app/stores';
 </script>
 
-<nav class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10">
-	<div class="flex-1 px-2 mx-2">
-		<a class="text-lg font-bold" href="/">Portfolio and Blog</a>
+<nav class="navbar mb-16 shadow-lg bg-neutral text-neutral-content top-0 sticky z-0">
+	<div class="flex-1 px-2 mx-2 w-1/6">
+		<a href="/" class="w-fit">
+			{#key $page}
+				<Logo width="50" height="fit-content" />
+			{/key}
+		</a>
 	</div>
 
 	<div class="dropdown dropdown-left lg:hidden">

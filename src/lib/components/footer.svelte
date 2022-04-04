@@ -1,10 +1,9 @@
 <script>
-	import FacebookIcon from './facebook-icon.svelte';
 	import TwitterIcon from './twitter-icon.svelte';
 	import GithubIcon from './github-icon.svelte';
 </script>
 
-<footer class="p-10 footer bg-primary text-primary-content footer-center">
+<footer class="p-10 footer bg-primary text-primary-content footer-center bottom-0">
 	<div class="grid grid-flow-col gap-4">
 		<a class="link link-hover" href="/projects">Portfolio</a>
 		<a class="link link-hover" href="/posts">Blog</a>

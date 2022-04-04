@@ -32,7 +32,7 @@
 
 <!-- Adds meta data to the page. -->
 <svelte:head>
-	<title>My Porfolio Project</title>
+	<title>Dorianb.dev</title>
 </svelte:head>
 
 <!-- Page Markup -->
