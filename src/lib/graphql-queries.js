@@ -61,6 +61,7 @@ export const projectQuery = gql`
 		}
 	}
 `;
+
 export const postsQuery = gql`
 	${POST_FRAGMENT}
 	query GetPosts {
